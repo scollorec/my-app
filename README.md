@@ -35,7 +35,7 @@ Unit tests cover postcode handling, distance, inspection age/freshness, FSA tran
 
 ## Deployment
 
-GitHub Actions runs lint, unit tests, and the production build before publishing the generated `dist` artifact to GitHub Pages. Vite uses the repository base path in Actions. For a different repository, update `hygienecheck-uk` in `vite.config.ts`.
+Every push to `main`—including a pull request merge—runs lint, unit tests, and the production build before publishing the generated `dist` artifact to GitHub Pages. The workflow uses Node 20 and then publishes the generated artifact only if all checks succeed. Vite uses the repository base path in Actions. For a different repository, update `hygienecheck-uk` in `vite.config.ts`.
 
 ## Known limitations and future proxy
 

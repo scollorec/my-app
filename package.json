@@ -1,6 +1,6 @@
 {
   "name":"hygienecheck-uk","private":true,"version":"1.0.0","type":"module",
   "scripts":{"dev":"vite","build":"tsc -b && vite build","lint":"eslint .","test":"vitest run","test:watch":"vitest","preview":"vite preview","e2e":"playwright test"},
-  "dependencies":{"@vitejs/plugin-react":"latest","leaflet":"^1.9.4","react":"^18.3.1","react-dom":"^18.3.1","react-leaflet":"^4.2.1","recharts":"^2.12.7"},
-  "devDependencies":{"@eslint/js":"^9.9.0","@playwright/test":"^1.47.2","@testing-library/jest-dom":"^6.4.8","@testing-library/react":"^16.0.0","@types/leaflet":"^1.9.12","@types/react":"^18.3.3","@types/react-dom":"^18.3.0","eslint":"^9.9.0","eslint-plugin-react-hooks":"^5.1.0","eslint-plugin-react-refresh":"^0.4.9","jsdom":"^25.0.0","typescript":"^5.5.4","typescript-eslint":"^8.0.0","vite":"^5.4.2","vitest":"^2.0.5"}
+  "dependencies":{"leaflet":"^1.9.4","react":"^18.3.1","react-dom":"^18.3.1","react-leaflet":"^4.2.1","recharts":"^2.12.7"},
+  "devDependencies":{"@eslint/js":"^9.9.0","@playwright/test":"^1.47.2","@testing-library/jest-dom":"^6.4.8","@testing-library/react":"^16.0.0","@types/leaflet":"^1.9.12","@types/react":"^18.3.3","@types/react-dom":"^18.3.0","@vitejs/plugin-react":"^4.3.1","eslint":"^9.9.0","eslint-plugin-react-hooks":"^5.1.0","eslint-plugin-react-refresh":"^0.4.9","jsdom":"^25.0.0","typescript":"^5.5.4","typescript-eslint":"^8.0.0","vite":"^5.4.2","vitest":"^2.0.5"}
 }
